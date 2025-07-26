@@ -1,5 +1,5 @@
 # 💫 About Me:
-🧑‍🎓i am a student<br><br>🍃My hobby is travelling<br>❤️thnk u for visiting my page
+🧑‍🎓i am a student<br>🍃My hobby is travelling<br>❤️thnk u for visiting my page
 
 
 ## 🌐 Socials:
