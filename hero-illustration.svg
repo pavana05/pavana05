@@ -1,0 +1,57 @@
+<svg viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="blob1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F472B6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#F472B6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- floating aurora blobs -->
+  <circle cx="70" cy="55" r="120" fill="url(#blob1)">
+    <animate attributeName="cy" values="55;85;55" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="430" cy="270" r="140" fill="url(#blob2)">
+    <animate attributeName="cy" values="270;240;270" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="410" cy="40" r="90" fill="url(#blob3)">
+    <animate attributeName="cx" values="410;380;410" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- editor window -->
+  <rect x="55" y="48" width="370" height="228" rx="18" fill="#0F1117" stroke="url(#glow)" stroke-width="2"/>
+  <rect x="55" y="48" width="370" height="36" rx="18" fill="#161925"/>
+  <rect x="55" y="66" width="370" height="18" fill="#161925"/>
+  <circle cx="80" cy="66" r="5.5" fill="#FF5F56"/>
+  <circle cx="99" cy="66" r="5.5" fill="#FFBD2E"/>
+  <circle cx="118" cy="66" r="5.5" fill="#27C93F"/>
+
+  <!-- code lines -->
+  <rect x="88" y="108" width="110" height="10" rx="5" fill="#8B5CF6"/>
+  <rect x="88" y="132" width="205" height="10" rx="5" fill="#2E3340"/>
+  <rect x="108" y="156" width="150" height="10" rx="5" fill="#22D3EE"/>
+  <rect x="108" y="180" width="130" height="10" rx="5" fill="#2E3340"/>
+  <rect x="108" y="204" width="85" height="10" rx="5" fill="#F472B6"/>
+  <rect x="88" y="228" width="170" height="10" rx="5" fill="#2E3340"/>
+  <rect x="88" y="252" width="60" height="10" rx="5" fill="#8B5CF6"/>
+
+  <!-- blinking cursor -->
+  <rect x="156" y="252" width="8" height="12" fill="#22D3EE">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- code glyph -->
+  <text x="325" y="205" font-family="Fira Code, monospace" font-size="46" fill="url(#glow)" font-weight="700">&lt;/&gt;</text>
+</svg>
