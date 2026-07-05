@@ -1,4 +1,4 @@
-<!--
+[<!--
 ============================================================
   ONE-TIME SETUP — do this once, then everything below just works.
   (This whole comment is invisible on your rendered profile page,
@@ -273,3 +273,4 @@ Create a free account at [holopin.io](https://holopin.io), then add:
 PRIVATE NOTE (visible only in raw markdown, not on the rendered page):
 Check this repo's Insights → Traffic tab for private visitor stats — daily views, referrers, countries. Visitors never see this panel, only you can.
 -->
+](https://www.linkedin.com/in/pavana-25t/)
