@@ -134,27 +134,6 @@ PAVAN A -
 
 ---
 
-## 🎲 `fun_facts.txt`
-
-<details>
-<summary>Click to reveal</summary>
-<br>
-
-- 🌙 Dark mode isn't a preference, it's a personality trait.
-- 🐧 Can talk about Linux directory structure and kernel tuning indefinitely.
-- ☕ Believes the best architecture solutions reveal themselves mid-debugging sessions.
-- 🧩 Side-project backlogs grow faster than deployment instances.
-
-</details>
-
-```python
-# Issues are just undocumented optimization points
-try:
-    deploy_infrastructure()
-except Exception as downtime:
-    optimize_load_balancer(); scale_up(); debug_logs()
-```
-
 ---
 
 ## 📫 `lets_connect.md`
